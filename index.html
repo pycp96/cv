@@ -1,0 +1,101 @@
+<!DOCTYPE html> <!-- Declares the documentation type/version of html -->
+<html lang="en" dir="ltr"> <!--Tells the browser everything inbetween is html code -->
+  <head> <!--Holds information about the webpage, tells browser how to handle the page-->
+    <meta charset="utf-8"> <!-- important code to render the website functional-->
+    <title>Paul's Personal Site</title>
+  </head>
+  <body>
+    <table cellspacing="20">
+      <tr>
+        <td><img src="images/paul.png" alt="Paul profile picture" height="150" width="150"></td>
+        <!--Image tag is self-closing, for img src, copy the image address from the picture online-->
+        <!--To use a picture file that's in my laptop, I have to put the picture in the same html folder-->
+        <td><h1>Paul Yang </h1>
+        <p> <em>Student in SIM-UOL currently studying <!-- Emphasis <em> tag italicizes the font-->
+        <strong>Economics & Finance</strong></em>. </p> <!-- Strong <strong> tag bolds the font -->
+        <p>I am currently an undergraduate university student & I love drinking coffee.</p></td>
+      </tr>
+    </table>
+    <hr> <!-- Horizontal rule produces a line -->
+
+    <h3>Education</h3>
+    <ul> <!--Gives the cue to start bullet listing items(aka : unordered list)-->
+      <li><a href="https://www.simge.edu.sg/programme/bachelor-of-science-honours-in-economics-and-finance/">SIM (University of London) Bachelor of Science in Economics & Finance</a></li>
+      <!-- This is the opening tag for a hyperlink: <a href="#"> and this is the closing tag: </a>.
+      In between opening & closing tag is the content that users click to link to the other website -->
+      <li>Ngee Ann Polytechnic (Real Estate Business)</li>
+      <li>Kuo Chuan Presbyterian Secondary School</li>
+    </ul>
+    <hr>
+
+    <h3>Work Experience</h3>
+    <table border="1"> <!--The table element, has attributes-->
+      <thead> <!--Table head element, only covers the 1st row of the table-->
+        <tr>
+          <th>Date</th>
+          <th>Work</th>
+          <th>Position</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr> <!--First row in the table-->
+          <td>March 2017 - May 2017</td>
+          <td>Ascendas-Singbridge</td>
+          <td>Temporary Administrative Assistant</td>
+        </tr>
+        <tr> <!--Second row in the table-->
+          <td>Sept 2016 - Oct 2016</td>
+          <td>Knight Frank Property Asset Management</td>
+          <td>Resident's Relations Officer</td>
+        </tr>
+        <tr> <!--Third row in the table-->
+          <td>March 2016 - Aug 2016</td>
+          <td>GSK Global Pte Ltd</td>
+          <td>Intern</td>
+        </tr>
+      </tbody>
+    </table>
+    <hr>
+
+    <h3>My Hobbies</h3>
+    <ol> <!-- Ordered List-->
+      <li> Working Out</li>
+      <li> Reading the news</li>
+      <li> Spending time with friends</li>
+    </ol>
+
+    <h3>Skills</h3>
+    <table>
+      <tr> <!--Tier 1 TR-->
+        <td> <!--Tier 1 TD 1(Open)-->
+          <table>
+            <tr>
+              <td>Microsoft Word</td>
+              <td>⭐⭐⭐⭐⭐</td>
+            </tr>
+            <tr>
+              <td>Microsoft Powerpoint</td>
+              <td>⭐⭐⭐⭐⭐</td>
+            </tr>
+          </table>
+        </td> <!--Tier 1 TD 1 (Close)-->
+        <td>  <!--Tier 1 TD 2 (Open)-->
+          <table>
+            <tr>
+              <td>Microsoft Excel</td>
+              <td>⭐⭐⭐⭐⭐</td>
+            </tr>
+            <tr>
+              <td>HTML(5)</td>
+              <td>⭐⭐⭐</td>
+            </tr>
+          </table>
+        </td>  <!--Tier 1 TD 2 (Close)-->
+      </tr> <!--Tier 1 TR-->
+    </table>
+    <hr>
+
+    <h5><a href="mycontact.html">Contact me</a></h5> <!--This hyperlink links the website to another of my own page-->
+    <!--However this other page has to be created in the same folder as my original website folder-->
+  </body>
+</html>
